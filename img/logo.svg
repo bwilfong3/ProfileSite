@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse id="svg_4" opacity="0.78" stroke="#bfbfbf" ry="130.500003" rx="130.500003" cy="335.500003" cx="352.000003" stroke-width="5" fill="#bfbfbf"/>
+  <ellipse opacity="0.78" stroke="#3c3ca8" ry="130.500003" rx="130.500003" id="svg_1" cy="184.500003" cx="210.500003" stroke-width="5" fill="#3c3ca8"/>
+  <ellipse id="svg_3" opacity="0.78" stroke="#ffffaa" ry="130.500003" rx="130.500003" cy="145.500003" cx="430.000003" stroke-width="5" fill="#ffffaa"/>
+  <text stroke="#bfbfbf" transform="matrix(6.250959094321982,0,0,6.250959094321982,-914.7016446608671,-713.43457612592) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="145.637903" x="215.333561" opacity="0.8" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">BW</text>
+ </g>
+</svg>
