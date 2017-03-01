@@ -5,6 +5,7 @@
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	<link href="style.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
+	<script src="./logic.js"></script>
 	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
 </head>
 <body>
@@ -105,13 +106,33 @@
 		<!-- End Parallax Section -->
 		<!-- Start banner wrapper -->
 		<section class="left-col">
-			<h1>Second heading Text</h1>
-			<p>Blahblahblahblahblbahlabhlbhalhbblah</p>
-			<p>Blahblahblahblahblbahlabhlbhalhbblah
-					Blahblahblahblahblbahlabhlbhalhbblah
-					Blahblahblahblahblbahlabhlbhalhbblah
-					Blahblahblahblahblbahlabhlbhalhbblah
-					Blahblahblahblahblbahlabhlbhalhbblah</p>
+			<h1>Current Projects in the Works</h1>
+
+			<div class="tab">
+  			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')">About this Website</a>
+  			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">The Solar Army</a>
+  			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Falcon Guide</a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Falcon Guide</a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Falcon Guide</a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Falcon Guide</a>
+			</div>
+
+			<div id="London" class="tabcontent" style="display:block">
+			  <h3>About this Website</h3>
+			  <p>This website was built using all vanilla HTML, CSS, and JavaScript</p>
+			</div>
+
+			<div id="Paris" class="tabcontent">
+			  <h3>The Solar Army</h3>
+			  <p>The Solar Army project at Fairmont State University aims to find a
+					 photoelectrocatalyst that can aid in splitting water into hydrogen
+				   that can be used for fuel. </p>
+			</div>
+
+			<div id="Tokyo" class="tabcontent">
+			  <h3>Tokyo</h3>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>
 		</section>
 		<section class="sidebar">
 			<img src="./img/moose_stuck.jpg">
